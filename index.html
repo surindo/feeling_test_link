@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feeling Test Links</title>
+  <link rel="shortcut icon" href="logo.ico">
+
+  <style>
+    /* ================= RESET ================= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* ================= BODY ================= */
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #111, #1b1b1b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    /* ================= CONTAINER ================= */
+    .container {
+      width: 100%;
+      max-width: 440px;
+      background: #000;
+      border-radius: 18px;
+      padding: 32px 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      border-top: 6px solid #ffd400;
+      animation: fadeUp 0.8s ease;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* ================= HEADER ================= */
+    .container h1 {
+      text-align: center;
+      font-size: 1.9rem;
+      color: #ffd400;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #ccc;
+      margin-bottom: 28px;
+    }
+
+    /* ================= LINK LIST ================= */
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 16px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      padding: 16px 18px;
+      background: #ffd400;
+      color: #000;
+      border-radius: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      transition: 0.25s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    a span {
+      font-size: 1.2rem;
+    }
+
+    a:hover {
+      background: #000;
+      color: #ffd400;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(255, 212, 0, 0.35);
+      border: 1px solid #ffd400;
+    }
+
+    /* ================= FOOTER ================= */
+    .footer {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media (max-width: 480px) {
+      .container {
+        padding: 24px 20px;
+      }
+
+      .container h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Feeling Test Link</h1>
+    <p class="subtitle">Silakan pilih menu pengujian di bawah</p>
+
+    <ul>
+      <li>
+        <a href="https://surindo.github.io/input_feeling_test/" target="_blank">
+          Input Feeling Test <span>➜</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://surindo.github.io/input_braking_test/" target="_blank">
+          Input Braking Test <span>➜</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://surindo.github.io/dashboard_feeling_test/" target="_blank">
+          Dashboard Feeling Test <span>➜</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://surindo.github.io/dashboard_braking_test/" target="_blank">
+          Dashboard Braking Test <span>➜</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="footer">
+      © 2026 – Feeling Test Links
+    </div>
+  </div>
+
+</body>
+</html>
